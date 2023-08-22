@@ -1,29 +1,28 @@
-#Desafio Argos - Extrator de Dados de PDF
-O desafio consistiu em desenvolver um extrator de dados de PDF utilizando Python para a extração de informações específicas.
+# DesafioArgos: Extrator de Dados de PDF com Python
 
-#Bibliotecas Utilizadas
-Para realizar essa extração, foram empregadas duas bibliotecas essenciais:
+O DesafioArgos propôs a criação de um extrator de dados de arquivos PDF usando a linguagem Python, com foco na extração de informações específicas desses documentos.
 
-pyPDF2: Essa biblioteca foi usada para lidar com operações de leitura em PDF.
+Para alcançar esse objetivo, optamos por utilizar as bibliotecas pyPDF2 e tabula, que possibilitam a manipulação de arquivos PDF e a extração de tabelas, respectivamente.
 
-Para instalá-la, você pode utilizar o seguinte comando:
+## Execução
 
-pip install pyPDF2
+Siga os passos abaixo para executar o código:
 
-Tabula: A biblioteca Tabula foi utilizada para a extração de tabelas a partir de arquivos PDF.
+1. **Instalação das Bibliotecas:**
+   Certifique-se de ter as bibliotecas pyPDF2 e tabula instaladas. Caso não as tenha, você pode instalá-las usando os seguintes comandos:
 
-Você pode instalá-la com o seguinte comando:
+   pip install pyPDF2
+   pip install tabula-py
 
-pip install tabula-py
+##  Localização do Arquivo PDF:
+O arquivo PDF que você deseja extrair informações deve estar na mesma pasta onde está o arquivo PDF.py.
 
+##  Execução do Código:
+Com as bibliotecas instaladas e o arquivo PDF na pasta correta, você pode simplesmente executar o código.
 
-#Execução
-Para executar o código, siga os passos abaixo:
+Observação: Certifique-se de que o arquivo PDF esteja na mesma pasta do arquivo PDF.py para que a extração de dados seja realizada corretamente.
 
-Certifique-se de que o arquivo PDF do qual deseja extrair dados esteja na mesma pasta do arquivo PDF.py.
+Observação: o arquivo PDF esta sendo lido nesta parte do codigo arte.lerPlr('plr_desafio.pdf')
 
-Instale as bibliotecas pyPDF2 e Tabula conforme mencionado anteriormente, caso ainda não tenha feito isso.
+Este desafio proporcionou uma oportunidade para explorarmos a manipulação de arquivos PDF e a extração de informações específicas utilizando Python. A utilização das bibliotecas pyPDF2 e tabula simplificou significativamente o processo de extração, tornando-o mais eficiente e acessível.
 
-Execute o código.
-
-Observação: Lembre-se de que é importante garantir que o arquivo PDF que você deseja processar esteja na mesma pasta do arquivo Python (PDF.py) para que o código funcione corretamente.

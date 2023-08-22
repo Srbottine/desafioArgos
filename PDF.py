@@ -51,14 +51,14 @@ class Arte:
                 self.plr_nutricional.append(table_text)
             
 
-        # Fechar o arquivo PDF
+        
         pdf_file.close()
 
-# Exemplo de uso:
+#lendo o arquivo 
 arte = Arte()
 arte.lerPlr('plr_desafio.pdf')
 
-# Acessar as informações extraídas
+
 print("Ingredientes:")
 print(arte.plr_ingredientes)
 print("\nAlergênicos:")
